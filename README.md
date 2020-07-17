@@ -29,13 +29,14 @@ changes to the vulnerable containers and system logs in a safe and managable way
 - Filebeat is used for gathering logs and shipping logs so they can be analyzed more easily. 
 - Metricbeat is used to collect system-level metrics for certain platforms allowing the administrator a visible performance monitoring.
 The configuration details of each machine may be found below.
-| Name    | Function | IP Address | Operating System |
-----------|----------|------------|------------------| 
-|Jump Box | Gateway  | 10.0.0.4   | Linux            |
-|Web1     | Container| 10.0.0.7   | Linux            |
-|Web2     | Container| 10.0.0.8   | Linux            |
-|WebDWVA  | Container| 10.0.0.9   | Linux            |
-|Elk      | Container| 10.1.0.4   | Linux            |
+
+| Name     | Function        | IP Address | Operating system |
+|----------|-----------------|------------|------------------|
+| Jump Box | Gateway         | 10.0.0.4   | Linux            |
+| Web1     | Virtual Machine | 10.0.0.7   | Linux            |
+| Web2     | Virtual Machine | 10.0.0.8   | Linux            |
+| WebDWVA  | Container       | 10.0.0.9   | Linux            |
+| ELK      | Container       | 10.1.0.4   | Linux            |
 
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet. 
